@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "cpc-did",
+    "slug": "cpc-did",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "entryPoint": "./target/index.js",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.0.1",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "icon": "./resources/assets/app-info/icon.png",
+    "orientation": "portrait",
+    "ios": {
+      "bundleIdentifier": "io.cpchain.did",
+      "splash": {
+        "image": "./resources/assets/app-info/ios_splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "android": {
+      "package": "io.cpchain.did",
+      "splash": {
+        "resizeMode": "cover",
+        "backgroundColor": "#FFFFFF",
+        "mdpi": "./resources/assets/app-info/android_splash_mdpi.png",
+        "hdpi": "./resources/assets/app-info/android_splash_hdpi.png",
+        "xhdpi": "./resources/assets/app-info/android_splash_xhdpi.png",
+        "xxhdpi": "./resources/assets/app-info/android_splash_xxhdpi.png",
+        "xxxhdpi": "./resources/assets/app-info/android_splash_xxxhdpi.png"
+      }
+    }
+  }
+}
